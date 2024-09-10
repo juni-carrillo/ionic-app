@@ -1,0 +1,35 @@
+
+
+<ion-content >
+  <div class="flex-center">
+  
+    <mat-card class="example-card" appearance="outlined">
+      <mat-card-header>
+        <mat-card-title-group>
+          <mat-card-title>Register</mat-card-title>
+          <br><br>
+        </mat-card-title-group>
+      </mat-card-header>
+      <mat-card-content>
+        <ion-item>
+          <ion-input type="email" label="Email" labelPlacement="floating" placeholder="Enter email"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input label="Name" labelPlacement="floating" placeholder="Enter name"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input label="Last name" labelPlacement="floating" placeholder="Enter last name"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input type="password" label="Password" labelPlacement="floating" placeholder="Enter password"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-input type="password" label="Confirm password" labelPlacement="floating" placeholder="Confirm password"></ion-input>
+        </ion-item>
+       
+        <ion-button color="success" size="full">Register</ion-button>
+        <ion-button color="success" size="full" (click)="login()">Go back</ion-button>
+      </mat-card-content>
+    </mat-card>
+  </div>
+</ion-content>
